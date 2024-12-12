@@ -1,0 +1,18 @@
+FUNCTION_BLOCK FB_Sach  
+VAR_INPUT  
+    ID_Sach : INT;  
+    Tên_Sach : STRING;  
+    Tác_Giả : STRING;  
+    Thể_Loại : STRING;  
+    Năm_Xuất_Bản : INT;  
+    Số_Trang : INT;  
+    Giá_Sách : REAL;  
+    Số_Lượng_Tồn : INT;  
+END_VAR  
+
+VAR_OUTPUT  
+END_VAR  
+
+BEGIN  
+    (* Thực hiện các hành động liên quan đến bảng "Sách" *)  
+END_FUNCTION_BLOCK  
