@@ -1,0 +1,19 @@
+CREATE TABLE <tên_bảng> (  
+    <tên_cột1> <kiểu_dữ_liệu>,  
+    <tên_cột2> <kiểu_dữ_liệu>,  
+    ...  
+); 
+INSERT INTO <tên_bảng> (<tên_cột1>, <tên_cột2>, ...)  
+VALUES (<giá_trị1>, <giá_trị2>, ...);  
+SELECT <tên_cột1>, <tên_cột2>, ...  
+FROM <tên_bảng>  
+WHERE <điều_kiện>;  
+UPDATE <tên_bảng>  
+SET <tên_cột1> = <giá_trị1>, <tên_cột2> = <giá_trị2>, ...  
+WHERE <điều_kiện>;
+DELETE FROM <tên_bảng>  
+WHERE <điều_kiện>;  
+SELECT <tên_cột1>, <tên_cột2>, ...  
+FROM <tên_bảng1>  
+JOIN <tên_bảng2>  
+ON <tên_bảng1>.<tên_cột> = <tên_bảng2>.<tên_cột>;  
